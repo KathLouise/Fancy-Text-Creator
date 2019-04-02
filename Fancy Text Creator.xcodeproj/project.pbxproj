@@ -15,6 +15,18 @@
 		CD56D83D2252C38400335231 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD56D83B2252C38400335231 /* LaunchScreen.storyboard */; };
 		CD56D8482252C38400335231 /* Fancy_Text_CreatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD56D8472252C38400335231 /* Fancy_Text_CreatorTests.swift */; };
 		CD56D8532252C38400335231 /* Fancy_Text_CreatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD56D8522252C38400335231 /* Fancy_Text_CreatorUITests.swift */; };
+		CD56D8642252C3A900335231 /* SugarstyleMillenial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD56D8602252C3A800335231 /* SugarstyleMillenial-Regular.ttf */; };
+		CD56D8652252C3A900335231 /* SugarstyleMillenial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD56D8602252C3A800335231 /* SugarstyleMillenial-Regular.ttf */; };
+		CD56D8662252C3A900335231 /* SugarstyleMillenial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD56D8602252C3A800335231 /* SugarstyleMillenial-Regular.ttf */; };
+		CD56D8672252C3A900335231 /* Blacksword.otf in Resources */ = {isa = PBXBuildFile; fileRef = CD56D8612252C3A900335231 /* Blacksword.otf */; };
+		CD56D8682252C3A900335231 /* Blacksword.otf in Resources */ = {isa = PBXBuildFile; fileRef = CD56D8612252C3A900335231 /* Blacksword.otf */; };
+		CD56D8692252C3A900335231 /* Blacksword.otf in Resources */ = {isa = PBXBuildFile; fileRef = CD56D8612252C3A900335231 /* Blacksword.otf */; };
+		CD56D86A2252C3A900335231 /* Moon Flower.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD56D8622252C3A900335231 /* Moon Flower.ttf */; };
+		CD56D86B2252C3A900335231 /* Moon Flower.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD56D8622252C3A900335231 /* Moon Flower.ttf */; };
+		CD56D86C2252C3A900335231 /* Moon Flower.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD56D8622252C3A900335231 /* Moon Flower.ttf */; };
+		CD56D86D2252C3A900335231 /* LemonMilk.otf in Resources */ = {isa = PBXBuildFile; fileRef = CD56D8632252C3A900335231 /* LemonMilk.otf */; };
+		CD56D86E2252C3A900335231 /* LemonMilk.otf in Resources */ = {isa = PBXBuildFile; fileRef = CD56D8632252C3A900335231 /* LemonMilk.otf */; };
+		CD56D86F2252C3A900335231 /* LemonMilk.otf in Resources */ = {isa = PBXBuildFile; fileRef = CD56D8632252C3A900335231 /* LemonMilk.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +61,10 @@
 		CD56D84E2252C38400335231 /* Fancy Text CreatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fancy Text CreatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD56D8522252C38400335231 /* Fancy_Text_CreatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fancy_Text_CreatorUITests.swift; sourceTree = "<group>"; };
 		CD56D8542252C38400335231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD56D8602252C3A800335231 /* SugarstyleMillenial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SugarstyleMillenial-Regular.ttf"; sourceTree = "<group>"; };
+		CD56D8612252C3A900335231 /* Blacksword.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Blacksword.otf; sourceTree = "<group>"; };
+		CD56D8622252C3A900335231 /* Moon Flower.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Moon Flower.ttf"; sourceTree = "<group>"; };
+		CD56D8632252C3A900335231 /* LemonMilk.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LemonMilk.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +115,7 @@
 		CD56D82E2252C38200335231 /* Fancy Text Creator */ = {
 			isa = PBXGroup;
 			children = (
+				CD56D8702252C3AE00335231 /* Fonts */,
 				CD56D82F2252C38200335231 /* AppDelegate.swift */,
 				CD56D8312252C38200335231 /* ViewController.swift */,
 				CD56D8332252C38200335231 /* Main.storyboard */,
@@ -126,6 +143,17 @@
 				CD56D8542252C38400335231 /* Info.plist */,
 			);
 			path = "Fancy Text CreatorUITests";
+			sourceTree = "<group>";
+		};
+		CD56D8702252C3AE00335231 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CD56D8612252C3A900335231 /* Blacksword.otf */,
+				CD56D8632252C3A900335231 /* LemonMilk.otf */,
+				CD56D8622252C3A900335231 /* Moon Flower.ttf */,
+				CD56D8602252C3A800335231 /* SugarstyleMillenial-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +260,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD56D86D2252C3A900335231 /* LemonMilk.otf in Resources */,
+				CD56D8642252C3A900335231 /* SugarstyleMillenial-Regular.ttf in Resources */,
+				CD56D86A2252C3A900335231 /* Moon Flower.ttf in Resources */,
 				CD56D83D2252C38400335231 /* LaunchScreen.storyboard in Resources */,
 				CD56D83A2252C38400335231 /* Assets.xcassets in Resources */,
 				CD56D8352252C38200335231 /* Main.storyboard in Resources */,
+				CD56D8672252C3A900335231 /* Blacksword.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +274,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD56D86E2252C3A900335231 /* LemonMilk.otf in Resources */,
+				CD56D8652252C3A900335231 /* SugarstyleMillenial-Regular.ttf in Resources */,
+				CD56D86B2252C3A900335231 /* Moon Flower.ttf in Resources */,
+				CD56D8682252C3A900335231 /* Blacksword.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +285,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD56D86F2252C3A900335231 /* LemonMilk.otf in Resources */,
+				CD56D8662252C3A900335231 /* SugarstyleMillenial-Regular.ttf in Resources */,
+				CD56D86C2252C3A900335231 /* Moon Flower.ttf in Resources */,
+				CD56D8692252C3A900335231 /* Blacksword.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
